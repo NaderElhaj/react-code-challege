@@ -1,0 +1,67 @@
+.buttons-group button{
+ 
+    outline: none;
+    border:none;
+    background-color: #88FCA3;
+    box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 40%);
+    border-radius: 2px;
+    margin-right: 5px;
+    width: 70px;
+    height: 35px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.buttons-group button:hover{
+    transform: scale(1.05);
+}
+.buttons-group button:active{
+    transform: scale(0.95);
+}
+.buttons-group{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+.message{
+    width: 300px;
+    height: 75px;
+    border-radius: 5px;
+    padding : 20px 25px ; 
+    margin-bottom: 10px;
+    position: relative;
+
+}
+.message .clear-button{
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.message.error{
+    background-color: #F56236;
+}
+.message.warning{
+    background-color: #FCE788;
+}
+.message.info{
+    background-color: #88FCA3;
+}
+.header h1{
+    padding-left: 10%;
+    width: 100%;
+    font-size: 25px;
+}
